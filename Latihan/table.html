@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TABLE PERTANDINGAN</title>
+  </head>
+  <body>
+<!--- CONTOH TABLE dengan element ( TR ) yang di dalamnya ada Table Header (th) dan Table Data (td) --->
+    <h1> Pemenang Piala Dunia tiga tahun terakhir </h1>
+    <table border="2">
+      <tr>
+        <th>Tahun</th>
+        <th>Juara 1</th>
+        <th>Juara 2</th>
+        <th>Juara 3</th>
+      </tr>
+      <tr>
+        <td>2018</td>
+        <td>Prancis</td>
+        <td>Kroasia</td>
+        <td>Belgium</td>
+      </tr>
+      <tr>
+        <td>2014</td>
+        <td>Jerman</td>
+        <td>Argentina</td>
+        <td>Belanda</td>
+      </tr>
+      <tr>
+        <td>2010</td>
+        <td>Spanyol</td>
+        <td>Belanda</td>
+        <td>Jerman</td>
+      </tr>
+    </table>
+<br> <h2>Jadwal Pemutaran Film</h2>
+<!--- CONTOH Column Spans --->
+<!--- nb : CONTOH penambahan border pada element <table> gara terdapat garis tepi --->
+   <table border="1">
+    <tr>
+        <th>18:00</th>
+        <th>19:00</th>
+        <th>20:00</th>
+      </tr>
+      <tr>
+        <td colspan="2">Avenger Infinity Wars</td>
+        <td>It Chapter 2</td>
+      </tr>
+      <tr>
+        <td>One Piece: Stampade</td>
+        <td>Weathering With You</td>
+        <td>Gundala</td>
+      </tr>
+      <tr>
+        <td>Gundala</td>
+        <td colspan="2">Avenger Infinity Wars</td>
+      </tr>
+    </table>
+<!--- CONTOH Row Spans dengan di tambahkan border pada element table --->
+<br><table border="1">
+     <tr>
+      <th rowspan="3">18:00</th>
+      <td>Avenger Infinity Wars</td>
+     </tr>
+     <tr>
+       <td>One Piece: Stampade</td>
+     </tr>
+     <tr>
+       <td>Gundala</td>
+     </tr>
+    </table>
+  </body>
+</html>
